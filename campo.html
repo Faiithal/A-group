@@ -1,0 +1,70 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+        <title>Campo</title>
+        <style>
+
+            body{
+            background-color: cyan;
+            text-align: justify;
+            }
+
+        .bubble::after {
+        content: '';
+        border-top-left-radius: 50% 100%;
+        border-top-right-radius: 50% 100%;
+        position: absolute;
+        bottom: 0;
+        z-index: -1;
+        width: 100%;
+        background-color: #0f0f10;
+        height: 85%;
+    }
+
+    h1{
+        font-family: "Rubik Mono One", monospace;
+        font-weight: 20px;
+        font-style: small;
+        text-shadow: #4040fa;
+    }
+
+    h2{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+    }
+
+    audio{
+        background-position: 0;
+        text-align: center;
+    }
+
+    .audio-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+        </style>
+    </head>
+    <body>
+        <section class="bubble"></section>
+        <h1>Hi my name is Shekinah Campo. I am 28 years old</h1>
+        <h2>And these are my favourites</h2>
+        <ol>
+            <li> Cyan </li>
+            <li> Star Wars</li>
+        </ol>
+        
+        <div class='audio-container'></div>
+        <audio controls loop>
+        <audio src="https://freesound.org/people/UNIVERSFIELD/sounds/747177/"></audio> 
+        
+    </body>
+    </html>
