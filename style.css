@@ -26,13 +26,17 @@ body{
 }
 
 ul{
+    display: flex;
+    justify-content: center;
     list-style-type: none;
+    flex-direction:column;
     
 }
 
 main{
     display: flex;
     gap: 10px;
+    justify-content: center;
 }
 
 h1, h2{
@@ -60,7 +64,8 @@ main ul a:hover{
 .pfp {
     margin: auto;
     background-color: aliceblue;
-    width: 10vw;
+    width: 7vw;
     height: 15vh;
     border-radius: 10px;
 }
+

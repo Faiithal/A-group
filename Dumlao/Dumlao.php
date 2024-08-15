@@ -37,7 +37,7 @@ $bio = [
             <li><a href="../index.html">Home</a></li>
             <li><a href="../Elgave/gamba.html">Elgave</a>
             </li>
-            <li><a href="../Mira/Mira.html">Hillary</a>
+            <li><a href="../Mira/Mira.php">Hillary</a>
             </li>
             <li><a
                     href="../campo.html">Shekinah</a>

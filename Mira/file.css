@@ -1,0 +1,11 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/63/b7/77/63b777bb69ae070f7d112719f63b0f4d.gif");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#lang{
+    text-shadow: 15px 15px color(srgb red green blue); 
+    font-weight: 200px ;
+    
+}
