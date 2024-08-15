@@ -16,27 +16,26 @@ body{
     overflow-x: hidden;
 }
 
+h1, h2 {
+    text-align: center;
+}
 
 #bg{
     position: absolute;
-    top: -10vh;
+    bottom: 0vh;
     z-index: -1;
-    height: 140vh;
+    height: 134vh;
     width: 110vw;
 }
 
 ul{
-    display: flex;
+    font-family: Proxima-nova_light;
     justify-content: center;
+    text-align: center;
+    display: flex;
     list-style-type: none;
-    flex-direction:column;
+    gap: 5px;
     
-}
-
-main{
-    display: flex;
-    gap: 10px;
-    justify-content: center;
 }
 
 h1, h2{
@@ -44,11 +43,6 @@ h1, h2{
     font-family:Proxima-nova;
     color: whitesmoke;
     font-size: 65px;
-}
-
-main ul{
-    font-family: Proxima-nova_light;
-    text-align: center;
 }
 
 main ul a{
@@ -64,8 +58,30 @@ main ul a:hover{
 .pfp {
     margin: auto;
     background-color: aliceblue;
-    width: 7vw;
-    height: 15vh;
+    width: 19vw;
+    height: 40vh;
     border-radius: 10px;
 }
 
+.one {
+    background: url("/Pictures/Mikel.jpg");
+    background-size: cover;
+}
+
+.two {
+    background: url("/Pictures/Joshua.jpg");
+    background-size: cover;
+
+}
+
+.three {
+    background: url("/Pictures/Hillary.jpg");
+    background-size: cover;
+
+}
+
+.four {
+    background: url("/Pictures/Zoe.jpg");
+    background-size: cover;
+
+}
