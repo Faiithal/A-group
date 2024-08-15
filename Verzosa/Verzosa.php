@@ -4,7 +4,16 @@
         "Age" => 18,
         "Color" => "Teal",
         "Movie" => "The Tunnel to Summer, the Exit of Goodbyes",
-        "PLanguage" => "HTML"
+    ];
+
+    $Proficiency = [
+        "JavaScript",
+        "Python",
+        "C++",
+        "SQL",
+        "HTML",
+        "CSS",
+        "PHP"
     ];
 ?>
 <!DOCTYPE html>
@@ -24,11 +33,20 @@
         <h2 >Name: <?= $persona["Name"] ?></h2>
         <h2>Age: 16</h2>
         <h2 style = " color: teal">Favorite Color: <?= $persona["Color"] ?></h2>
-        <h2>Proficiency: <?= $persona["PLanguage"] ?></h2>
-
+        <div>
+        <h2>Proficiency:</h2>
+        <ol>
+            <li><?= $Proficiency["0"] ?></li>
+            <li><?= $Proficiency["1"] ?></li>
+            <li><?= $Proficiency["2"] ?></li>
+            <li><?= $Proficiency["3"] ?></li>
+            <li><?= $Proficiency["4"] ?></li>
+            <li><?= $Proficiency["5"] ?></li>
+            <li><?= $Proficiency["6"] ?></li>
+        </ol>
         <h2>Favorite Movie:</h2>
         <h2><?= $persona["Movie"] ?></h2>
-        <img src="https://preview.redd.it/870jqtoki4x81.jpg?width=1080&crop=smart&auto=webp&s=7f30162f93e7751c8705d2d0ad09e670fda12f51" class="t">
+        <img  src="https://preview.redd.it/870jqtoki4x81.jpg?width=1080&crop=smart&auto=webp&s=7f30162f93e7751c8705d2d0ad09e670fda12f51" class="t">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/quNGzBv9arI?si=RFOqz6VbeE3M9Qhl" title="YouTube video player">
     </Body>
 
