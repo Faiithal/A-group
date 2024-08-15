@@ -18,7 +18,7 @@
 ?>
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" href="verzosa.css">
+    <link rel="stylesheet" href="verzosa.css?v=0">
     <Head>
         <Title>Verzosa</Title>
         <style>
