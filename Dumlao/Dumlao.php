@@ -35,12 +35,12 @@ $bio = [
     <nav>
         <ul>
             <li><a href="../index.html">Home</a></li>
-            <li><a href="../Elgave/gamba.html">Elgave</a>
+            <li><a href="../Verzosa/Verzosa.php">Joshua</a>
             </li>
             <li><a href="../Mira/Mira.php">Hillary</a>
             </li>
             <li><a
-                    href="../campo.html">Shekinah</a>
+                    href="../Zoe/portfolio.php">Zoe</a>
             </li>
         </ul>
     </nav>
